@@ -11,12 +11,20 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 ## Design
 
 ### Table - CFG
-Zero_Risc Control flow graph
-![CFG table](pics/table.png)
+Zero_Risc Control flow graph is represent using a table that stores information about the *jump* intructions and the adress to wjere that *jump* can branch.
+
+![CFG table](pics/table.png  "CFG table")
 
 
-### 
+### Decoder
+The decoder submodule is responssible for
 
+![CFG table](pics/Zero_Risc_Decoder.png  "CFG table")
+
+
+### Tipical system overview
+
+![CFG table](pics/overview.png  "CFG table")
 
 
 
