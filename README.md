@@ -26,10 +26,7 @@ This module can be used simply by adding it to your project a submodule. Then yo
   * **i_clk** to provide a clock 
   * **i_rst** as reset (synchornous positive reset)
   * **i_instr_addr**  to the Instruction Address (PC) register
-  * **o_signal** to an IRQ of your system.  ****
-
-
-
+  * **o_signal** to an IRQ of your system, and write your interrupt responce routine
 
 
 ## The Repository is organized as follows:
@@ -42,3 +39,4 @@ This module can be used simply by adding it to your project a submodule. Then yo
 
 
 ### To do
+* Loader module to load the CFG table. This is currently being done by hardcoding in the *Verilog* code  
