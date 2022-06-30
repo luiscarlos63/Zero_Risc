@@ -10,6 +10,7 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 
 
 **Usage**
+
 This module can be used 
 
 
@@ -17,9 +18,12 @@ This module can be used
 
 
 **The Repository is organized as follows:**
-[Verilog](verilog) - HDL for the Zero Risc module
-[Sim](sim) - HDL for the Zero Risc module simulation
-[Ibex](ibex) - Link to the Ibex repository  
+
+  [Verilog](verilog) - HDL for the Zero Risc module
+
+  [Sim](sim) - HDL for the Zero Risc module simulation
+
+  [Ibex](ibex) - Link to the Ibex repository  
 
 
 **To do**
