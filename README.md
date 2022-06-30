@@ -1,6 +1,6 @@
 # Zero_Risc
 
-Zero Risc is a securuty driven hardware module writen in Verilog. 
+Zero Risc is a securuty driven hardware module writen in Verilog. This module implemntes a CFI .........
 
 This project emerged from a college proposed project topic, wich itself came from the *RISC-V Soft CPU Security Contest by Thales and Microchip Technology*
 https://github.com/ThalesGroup/RISC-V-IoT-Contest
@@ -11,6 +11,8 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 ## Design
 
 ### Table - CFG
+Zero_Risc Control flow graph
+[CFG table](pics/table.png)
 
 
 ### 
