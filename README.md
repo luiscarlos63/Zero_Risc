@@ -33,7 +33,7 @@ The decoder submodule is responssible for
 
 
 
-## Guide of Usage
+## User Guide
 
 Currently, Zero Risc works as a proof of concept. This means that for it to work you need to hardcode the table before deploying it to the FPGA.
 
@@ -42,6 +42,12 @@ This module can be used simply by adding it to your project a submodule. Then yo
   * **i_rst** as reset (synchornous positive reset)
   * **i_instr_addr**  to the Instruction Address (PC) register
   * **o_signal** to an IRQ of your system, and write your interrupt responce routine
+
+## Usage
+Zero Risc rsourse usage (using 16 entry CFG table
+| **Resource Name** | **Zero Risc** | **Ibex** | **Relative Utilization**
+| ---- |:---:|
+| Slice LUTs | 41 | 2557| 1.57|
 
 
 ## The Repository is organized as follows:
