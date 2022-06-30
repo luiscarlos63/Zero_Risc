@@ -15,6 +15,10 @@ Zero_Risc Control flow graph is represent using a table that stores information 
 
 ![CFG table](pics/table.png  "CFG table")
 
+Filling example:
+![CFG table_ex](pics/table_ex.png)
+
+
 
 ### Decoder
 The decoder submodule is responssible for
