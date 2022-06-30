@@ -18,6 +18,7 @@ This module can be used
 
 
 **The Repository is organized as follows:**
+*******************************************
 
   [Verilog](verilog) - HDL for the Zero Risc module
 
