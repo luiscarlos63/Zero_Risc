@@ -8,10 +8,20 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 ## Problem Statement
 
 
+## Design
+
+### Table - CFG
+
+
+### 
+
+
+
 
 ## Usage
 
-This module can be used 
+Currently, Zero Risc works as a proof of concept 
+This module can be used simply by adding it to your project a submodule.
 
 
 
