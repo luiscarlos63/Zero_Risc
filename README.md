@@ -12,7 +12,7 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 
 ### Table - CFG
 Zero_Risc Control flow graph
-![CFG table](pics/table.png "CFG table")
+![CFG table](pics/table.png)
 
 
 ### 
