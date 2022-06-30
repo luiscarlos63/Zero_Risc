@@ -33,7 +33,7 @@ The decoder submodule is responssible for
 
 
 
-## Usage
+## Guide of Usage
 
 Currently, Zero Risc works as a proof of concept. This means that for it to work you need to hardcode the table before deploying it to the FPGA.
 
