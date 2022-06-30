@@ -20,8 +20,13 @@ https://github.com/ThalesGroup/RISC-V-IoT-Contest
 
 ## Usage
 
-Currently, Zero Risc works as a proof of concept 
-This module can be used simply by adding it to your project a submodule.
+Currently, Zero Risc works as a proof of concept. This means that for it to work you need to hardcode the table before deploying it to the FPGA.
+
+This module can be used simply by adding it to your project a submodule. Then you need just to connect:
+  * **i_clk** to provide a clock 
+  * **i_rst** as reset (synchornous positive reset)
+  * **i_instr_addr**  to the Instruction Address (PC) register
+  * **o_signal** to an IRQ of your system.  ****
 
 
 
