@@ -49,7 +49,16 @@ Zero Risc rsourse usage (using 16 entry CFG table
 | **Resource Name** | **Zero Risc** | **Ibex** | **Relative Utilization**|
 | ---- |:---:| ---- | ---- |
 | Slice LUTs | 41 | 2557| 1.57|
-
+|Slice Registers| 92| 996| 8,46|
+|Slice| 29| 801| 3,49|
+|LUT as Logic| 41| 2509| 1,60|
+|F7 Muxes| 0| 2| 0|
+|LUT as Memory| 0| 48| 0|
+|Block Ram Tile| 0| 16| 0|
+|DSPs| 0| 1| 0|
+|Bonded IOB| 0| 31| 0|
+|BUFGCTRL| 0| 4| 0|
+|PLLE2_ADV| 0| 1| 0|
 
 ## The Repository is organized as follows:
 
