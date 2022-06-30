@@ -45,8 +45,10 @@ This module can be used simply by adding it to your project a submodule. Then yo
 
 ## Usage
 Zero Risc rsourse usage (using 16 entry CFG table
-| **Resource Name** | **Zero Risc** | **Ibex** | **Relative Utilization**
+
+| **Resource Name** | **Zero Risc** | **Ibex** | **Relative Utilization**|
 | ---- |:---:|
+
 | Slice LUTs | 41 | 2557| 1.57|
 
 
