@@ -19,12 +19,17 @@ Zero_Risc Control flow graph is represent using a table that stores information 
 ### Decoder
 The decoder submodule is responssible for
 
-![CFG table](pics/Zero_Risc_decoder.png  "CFG table")
+![Zero_Risc_decoder](pics/Zero_Risc_decoder.png)
+
+### Zero_Risc module
+
+![Zero_Risc_module](pics/Zero_Risc.png)
+
 
 
 ### Tipical system overview
 
-![CFG table](pics/overview.png  "CFG table")
+![overview](pics/overview.png)
 
 
 
