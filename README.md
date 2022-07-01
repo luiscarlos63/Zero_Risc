@@ -2,7 +2,7 @@
 
 Zero Risc is a security driven hardware module writen in Verilog. This module implements an hardware-base Control Flow Integrity for a target RISC-V soft CPU core. The used core is call Simple System developed by Ibex.
 
-This project emerged from a college proposed project topic, wich itself came from the *RISC-V Soft CPU Security Contest by Thales and Microchip Technology*
+This project emerged from a college proposed project topic, which itself came from the *RISC-V Soft CPU Security Contest by Thales and Microchip Technology*
 https://github.com/ThalesGroup/RISC-V-IoT-Contest
 
 ## Objectives
