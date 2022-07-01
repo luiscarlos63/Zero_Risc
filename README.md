@@ -19,7 +19,7 @@ v. Corrupting a C structure holding a function pointer
 ## Design
 
 ### Table - CFG
-Zero_Risc Control flow graph is represent using a table that stores information about the *jump* intructions and the adress to wjere that *jump* can branch.
+Zero_Risc Control flow graph is represent using a table that stores information about the *jump* intructions and the adress to where that *jump* can branch.
 
 ![CFG table](pics/table.png  "CFG table")
 
@@ -30,7 +30,7 @@ Zero_Risc Control flow graph is represent using a table that stores information 
 
 
 ### Decoder
-The decoder submodule is responssible for
+The decoder submodule is responsible for
 
 ![Zero_Risc_decoder](pics/Zero_Risc_decoder.png)
 
