@@ -1,13 +1,21 @@
 # Zero_Risc
 
-Zero Risc is a security driven hardware module writen in Verilog. This module implemnts an hardware-base Control FLow
+Zero Risc is a security driven hardware module writen in Verilog. This module implements an hardware-base Control Flow Integrity for a target RISC-V soft CPU core. The used core is call Simple System developed by Ibex.
 
 This project emerged from a college proposed project topic, wich itself came from the *RISC-V Soft CPU Security Contest by Thales and Microchip Technology*
 https://github.com/ThalesGroup/RISC-V-IoT-Contest
 
 ## Objectives
 
-
+The main
+goal is to implement security mechanisms for a target FPGA platform integrating an
+already developed RISC-V soft CPU core solely by extending the processor. The security
+countermeasures must be designed to thwart classical software attacks:
+i. Corrupting a function pointer on the heap
+ii. Buffer overflow on the stack to corrupt longjump buffer
+iii. Buffer overflow on the stack to change the return address
+iv. Corrupting a function pointer on the stack
+v. Corrupting a C structure holding a function pointer
 ## Design
 
 ### Table - CFG
