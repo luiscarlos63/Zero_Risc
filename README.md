@@ -30,7 +30,12 @@ Zero_Risc Control flow graph is represent using a table that stores information 
 
 
 ### Decoder
-The decoder submodule is responsible for
+The decoder submodule is responsible for comparing the current program counter with all Jump_Address
+in the table, in order to evaluate if the current instruction is a jump instruction.     
+If it detects a jump, the decoder will compare, for each match (the same jump instruction
+can have multiple addresses to where it can branch), is the corresponding Jump_to_Address
+is valid. If the correct next program counter is what is expected then there will be a match.
+In case a match hasn’t occurred, means that the program’s flow was hijacked.
 
 ![Zero_Risc_decoder](pics/Zero_Risc_decoder.png)
 
