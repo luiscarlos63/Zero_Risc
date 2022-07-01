@@ -11,11 +11,11 @@ The main
 goal is to implement security mechanisms for a target FPGA platform integrating an
 already developed RISC-V soft CPU core solely by extending the processor. The security
 countermeasures must be designed to thwart classical software attacks:
-i. Corrupting a function pointer on the heap
-ii. Buffer overflow on the stack to corrupt longjump buffer
-iii. Buffer overflow on the stack to change the return address
-iv. Corrupting a function pointer on the stack
-v. Corrupting a C structure holding a function pointer
+* i. Corrupting a function pointer on the heap
+* ii. Buffer overflow on the stack to corrupt longjump buffer
+* iii. Buffer overflow on the stack to change the return address
+* iv. Corrupting a function pointer on the stack
+* v. Corrupting a C structure holding a function pointer
 ## Design
 
 ### Table - CFG
