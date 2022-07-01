@@ -62,7 +62,7 @@ This module can be used simply by adding it to your project a submodule. Then yo
   * **o_signal** to an IRQ of your system, and write your interrupt responce routine
 
 ## Usage
-Zero Risc rsourse usage (using 16 entry CFG table
+Zero Risc rsourse usage (using 32 entry CFG table
 
 | **Resource Name** | **Zero Risc** | **Ibex** | **Relative Utilization**|
 | ---- |:---:| ---- | ---- |
